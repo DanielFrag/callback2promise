@@ -1,0 +1,20 @@
+{
+  "name": "callback2promise",
+  "version": "1.0.0",
+  "description": "Convert a callback based api into a promise, returning the error or the callback params",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "request": "2.81.0",
+    "mocha": "3.5.2",
+    "chai": "4.1.2"
+  },
+  "keywords": [
+    "callback",
+    "promise"
+  ],
+  "author": "Daniel <danielmarcos2@yahoo.com.br>",
+  "license": "MIT"
+}
